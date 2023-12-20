@@ -1,0 +1,8 @@
+use jspservlet
+
+insert into role (name, code) values ('ADMIN', 'Quản trị');
+insert into role (name, code) values ('USER', 'người dùng');
+
+insert into user (username, password, fullname, status, roleid) values ('admin', '123456', 'admin', 1, 1);
+insert into user (username, password, fullname, status, roleid) values ('nguyenvana', '123456', 'Nguyễn Văn A', 1, 2);
+insert into user (username, password, fullname, status, roleid) values ('nguyenvanb', '123456', 'Nguyễn Văn B', 1, 2);
